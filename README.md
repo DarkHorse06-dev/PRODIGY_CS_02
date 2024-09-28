@@ -18,7 +18,7 @@ To encrypt an image using Pillow for image processing and AES for encryption, us
 python encrypt.py --input your_image.png --output encrypted_image.enc --key your_key
 
 To decrypt an encrypted image and restore it to its original form,use:
-python decrypt.py --input encrypted_image.enc --output decrypted_image.png --key your_key
+python decrypt.py --input encrypted_image.enc --output decrypted_image.png --key
 
 Thanks to the Pillow library, the following image formats are supported:
 PNG
@@ -30,7 +30,7 @@ GIF
 Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/image-encryption.git
+git clone https://github.com/DarkHorse06-dev/PRODIGY_CS_02.git
 cd image-encryption
 
 Limitations
